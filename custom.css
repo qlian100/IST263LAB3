@@ -1,0 +1,156 @@
+body{
+
+/*removes default spacing on the body element */
+margin:0;
+padding:0;
+background-color: #f990f4;
+
+}
+
+/* selecting element by tagnames
+
+select all h1s
+
+
+*/
+.bigasstext{
+
+	font-size:40px;
+	color:#0000FF;
+}
+
+
+/*IDs are always called by # (hashtag) */
+#special{
+
+	color:#00FF00;
+}
+
+h1{
+
+	color: #FFFFFF;
+}
+
+/* class name are always called by a period */
+
+h4{
+	color:#FF0000;
+}
+
+
+
+.textSection{
+	height: 500px;
+	width: 100%;
+
+}
+
+.grey{
+
+	background-color:#bbbbbb;
+}
+
+.white{
+	background-color:#ffffff;
+}
+
+/* 1.font-family declare font i want
+	sans-serif is a useful great fallback font if halvetica has issues
+	2.better using font-weight, a lot more precise
+	3.font-normal
+	font-weight: bold;
+	font-weight: bolder;
+	4.font-style: normal;
+	5. (shorthand)if all the color all the same, you only need to call 3 of them.
+
+	*/
+
+.sectionHeadline{
+	font-family: "Open Sans Condensed";
+	font-size:36px;
+	font-weight: 600;
+	font-style: italic;
+	color:#fff;
+
+}
+
+#hi{
+	color:#000000;
+	text-align: center
+}
+
+
+
+.center{
+
+	/*text align property align my text where i want it to be */
+
+text-align: left;
+
+
+}
+
+
+
+
+
+.left{
+	text-align:left;
+
+}
+
+
+.right{
+	text-align:right;
+
+}
+
+
+
+.underline{
+
+	text-decoration: underline;
+}
+
+
+.underline{
+	text-decoration: none;
+}
+
+.uppercase{
+
+	text-transform: uppercase;
+
+}
+
+.lowercase{
+	text-transform: lowercase;
+}
+
+
+.caps{
+	text-transform: capitalize;
+
+}
+
+.big-body-text{
+	font-size: 15px;
+	line-height: 25px;
+}
+
+
+
+.qiqi{
+	text-transform: capitalize
+
+}
+
+
+
+
+
+
+
+
+
+
